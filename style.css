@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+    font-family: "inter" sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.main{
+    display:flex;
+    
+}
+
+.input{
+    margin-top: 90px;
+}
+
+.input-desencript{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
