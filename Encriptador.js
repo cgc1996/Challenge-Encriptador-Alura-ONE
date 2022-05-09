@@ -1,8 +1,8 @@
-const inputtexto =document.querySelector(".input");
-const mensaje= document.querySelector(".input-desencript");
+const inputtexto =document.querySelector("#input");
+const mensaje= document.querySelector("#input-desencript");
 
 function encriptar(textoParaEncriptar){
-    let matrizCodigo= [["e","enter"],["i","imes"],["a","ai"],["o", "ober"],["u","ufat"]];    
+    let matrizCodigo= [["e","enter"],["i","imes"],["a","ai"],["o", "ober"],["u","ufat"]];
 
     textoParaEncriptar =textoParaEncriptar.toLowerCase();
     for(let i=0;i<matrizCodigo.length;i++){

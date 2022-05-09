@@ -1,5 +1,3 @@
-const inputtexto =document.querySelector(".input");
-const mensaje= document.querySelector(".input-desencript");
 function desencriptar(textoParaDesencriptar){
 
     let matrizCodigo= [["e","enter"],["i","imes"],["a","ai"],["o", "ober"],["u","ufat"]];

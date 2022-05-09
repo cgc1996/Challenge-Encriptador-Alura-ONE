@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Encriptador De Texto</title>
-    <link rel="stylesheet" href="style.css">
-    
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador De Texto ONE-Alura</title>
+        <link rel="stylesheet" href="style.css">
+        
+        
+            
+    </head>
 
-<body>
-    <header>
-        <img src="/Imagenes/Logo.png">
+    <body >
+        <header>
+            <img src="Imagenes\Logo.png">
+            <h1>Encriptador de Texto ONE - Alura</h1><img src="Imagenes\Lupa1.png">
+        </header>
 
-    </header>
+        <main>
+            <section>
+            <textarea type="text" id="input" placeholder="Ingrese el texto aquí" ></textarea>
+                <div>
+                    <button type="button" class="botones" onclick="botonencriptar()">Encriptar</button>
+                    <button type="button" class="botones" onclick="botondesencriptar()">Desencriptar</button>
 
-    <main>
-        <section>
-        <textarea type="text" class="input" cols="40"  rows="6" placeholder="Ingrese el texto aquí">
-        </textarea>
-            <div>
-                <button type="button" onclick="botonencriptar()">Encriptar</button>
-                <button type="button"onclick="botondesencriptar()">Desencriptar</button>
-
-            </div>
-        </section>
-        <section>
-            <textarea type="text" cols="18" rows="8" class="input-desencript" placeholder="Ingrese el texto aquí"></textarea>
-            <button type="button"> Copiar </button>
-
-        </section>
-
-
-
-    </main>
-
-
-    
+                </div>
+            </section>
+            <section>
+                <div>
+                    <textarea disabled type="text"  id="input-desencript" placeholder= "No se encontró ningún mensaje/texto" ></textarea>
+                </div>
+                <div >
+                <button type="button" class="botones" onclick="botoncopiar()">Copiar</button>
+                </div>
+            </section>
 
 
-    <footer>
 
+        </main>
+
+    </body>
+    <br>
+    <br>
+
+   
+    <footer id="piepagina">
+        <p>Autor: <a href="https://github.com/cgc1996">CristianGC</a></p>        
     </footer>
-    
-</body>
+        
+
 <script src="Encriptador.js"></script>
 <script src="Desencriptador.js"></script>
-
-
+<script src="Boton Copiar.js"></script>
 </html>
