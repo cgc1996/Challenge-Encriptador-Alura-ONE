@@ -2,21 +2,27 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <title>Encriptador De Texto ONE-Alura</title>
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="Imagenes\Logo candado pestaña.ico">
-                   
+        <link rel="icon" href="Imagenes\Lupa1.png">
+        <title>Encriptador De Texto ONE-Alura</title>    
     </head>
 
     <body >
         <header>
-            <img src="Imagenes\Logo.png">
-            <h1>Encriptador de Texto ONE - Alura</h1><img src="Imagenes\Lupa1.png">
+            <img id="logoAlura" src="Imagenes\Logo1.png">
+            <br>
+            <br>
+            <h1>Encriptador de Texto ONE - Alura</h1> <img id= "logoLupa" src="Imagenes\Lupa1.png">
+            <br>
         </header>
 
         <main>
+            <section class="advertencia">
+                <img src="Imagenes\advert.png">NO se aceptan caracteres especiales y números<img src="Imagenes\advert.png">
+            </section>
             <section>
-            <textarea type="text" id="input" placeholder="Ingrese el texto aquí" ></textarea>
+            <textarea type="text" id="input" placeholder="Ingrese el texto aquí"></textarea>
                 <div>
                     <button type="button" class="botones" onclick="botonencriptar()">Encriptar</button>
                     <button type="button" class="botones" onclick="botondesencriptar()">Desencriptar</button>
@@ -25,20 +31,18 @@
             </section>
             <section>
                 <div>
-                    <textarea disabled type="text"  id="input-desencript" placeholder= "No se encontró ningún mensaje/texto" ></textarea>
+                    <textarea disabled type="text"  id="input-desencript" placeholder= "No se encontró ningún mensaje/texto" ></textarea><img id="flechaL"src="Imagenes\flecha L.png">
                 </div>
                 <div >
                 <button type="button" class="botones" onclick="botoncopiar()">Copiar</button>
                 </div>
             </section>
 
-
-
         </main>
 
     </body>
     <br>
-    <br>
+    
 
    
     <footer id="piepagina">
